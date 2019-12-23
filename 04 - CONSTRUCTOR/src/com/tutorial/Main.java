@@ -13,6 +13,46 @@ class Mahasiswa {
     int operan1;
     int operan2;
 
+    public String getNama() {
+        return this.nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getNIM() {
+        return this.NIM;
+    }
+
+    public void setNIM(String NIM) {
+        this.NIM = NIM;
+    }
+
+    public String getJurusan() {
+        return this.jurusan;
+    }
+
+    public void setJurusan(String jurusan) {
+        this.jurusan = jurusan;
+    }
+
+    public int getOperan1() {
+        return this.operan1;
+    }
+
+    public void setOperan1(int operan1) {
+        this.operan1 = operan1;
+    }
+
+    public int getOperan2() {
+        return this.operan2;
+    }
+
+    public void setOperan2(int operan2) {
+        this.operan2 = operan2;
+    }
+
     // Konstruktor dengan parameter
     Mahasiswa(String inputNama, String inputNIM, String inputJurusan) {
         this.nama = inputNama;
