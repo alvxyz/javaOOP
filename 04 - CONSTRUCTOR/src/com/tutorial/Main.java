@@ -31,7 +31,7 @@ class Mahasiswa {
 
     public String getJurusan() {
         return this.jurusan;
-    }
+    } 
 
     public void setJurusan(String jurusan) {
         this.jurusan = jurusan;
